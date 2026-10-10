@@ -1,0 +1,277 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:a445e0ed-927c-52d9-8829-e62c40f4a115",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-06T01:20:38Z",
+    "component": {
+      "type": "application",
+      "name": "EVALS_PRIOR_DOCS",
+      "version": "8eac7a7de521",
+      "bom-ref": "pkg:generic/anticloud/EVALS_PRIOR_DOCS@8eac7a7de521",
+      "purl": "pkg:generic/anticloud/EVALS_PRIOR_DOCS@8eac7a7de521",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "8eac7a7de5215c907fbddc30efdaf316913eccdd"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/openai/evals"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "aiolimiter",
+      "version": "unspecified",
+      "purl": "pkg:pypi/aiolimiter",
+      "bom-ref": "pypi/aiolimiter@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "anthropic",
+      "version": "unspecified",
+      "purl": "pkg:pypi/anthropic",
+      "bom-ref": "pypi/anthropic@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "backoff",
+      "version": "unspecified",
+      "purl": "pkg:pypi/backoff",
+      "bom-ref": "pypi/backoff@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "beartype",
+      "version": ">=0.12.0",
+      "purl": "pkg:pypi/beartype@0.12.0",
+      "bom-ref": "pypi/beartype@>=0.12.0"
+    },
+    {
+      "type": "library",
+      "name": "blobfile",
+      "version": "unspecified",
+      "purl": "pkg:pypi/blobfile",
+      "bom-ref": "pypi/blobfile@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "chess",
+      "version": "unspecified",
+      "purl": "pkg:pypi/chess",
+      "bom-ref": "pypi/chess@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "dacite",
+      "version": "unspecified",
+      "purl": "pkg:pypi/dacite",
+      "bom-ref": "pypi/dacite@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "datasets",
+      "version": "unspecified",
+      "purl": "pkg:pypi/datasets",
+      "bom-ref": "pypi/datasets@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "docker",
+      "version": "unspecified",
+      "purl": "pkg:pypi/docker",
+      "bom-ref": "pypi/docker@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "evaluate",
+      "version": "unspecified",
+      "purl": "pkg:pypi/evaluate",
+      "bom-ref": "pypi/evaluate@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "filelock",
+      "version": "unspecified",
+      "purl": "pkg:pypi/filelock",
+      "bom-ref": "pypi/filelock@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "fire",
+      "version": "unspecified",
+      "purl": "pkg:pypi/fire",
+      "bom-ref": "pypi/fire@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "flask",
+      "version": "unspecified",
+      "purl": "pkg:pypi/flask",
+      "bom-ref": "pypi/flask@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "google-generativeai",
+      "version": "unspecified",
+      "purl": "pkg:pypi/google-generativeai",
+      "bom-ref": "pypi/google-generativeai@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "gymnasium",
+      "version": "unspecified",
+      "purl": "pkg:pypi/gymnasium",
+      "bom-ref": "pypi/gymnasium@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "jiwer",
+      "version": "unspecified",
+      "purl": "pkg:pypi/jiwer",
+      "bom-ref": "pypi/jiwer@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "langchain",
+      "version": "unspecified",
+      "purl": "pkg:pypi/langchain",
+      "bom-ref": "pypi/langchain@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "langdetect",
+      "version": "unspecified",
+      "purl": "pkg:pypi/langdetect",
+      "bom-ref": "pypi/langdetect@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "lz4",
+      "version": "unspecified",
+      "purl": "pkg:pypi/lz4",
+      "bom-ref": "pypi/lz4@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "matplotlib",
+      "version": "unspecified",
+      "purl": "pkg:pypi/matplotlib",
+      "bom-ref": "pypi/matplotlib@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "mock",
+      "version": "unspecified",
+      "purl": "pkg:pypi/mock",
+      "bom-ref": "pypi/mock@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "mypy",
+      "version": "unspecified",
+      "purl": "pkg:pypi/mypy",
+      "bom-ref": "pypi/mypy@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "networkx",
+      "version": "unspecified",
+      "purl": "pkg:pypi/networkx",
+      "bom-ref": "pypi/networkx@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "nltk",
+      "version": "unspecified",
+      "purl": "pkg:pypi/nltk",
+      "bom-ref": "pypi/nltk@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "numexpr",
+      "version": "unspecified",
+      "purl": "pkg:pypi/numexpr",
+      "bom-ref": "pypi/numexpr@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "numpy",
+      "version": "unspecified",
+      "purl": "pkg:pypi/numpy",
+      "bom-ref": "pypi/numpy@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "openai",
+      "version": ">=1.0.0",
+      "purl": "pkg:pypi/openai@1.0.0",
+      "bom-ref": "pypi/openai@>=1.0.0"
+    },
+    {
+      "type": "library",
+      "name": "pandas",
+      "version": "unspecified",
+      "purl": "pkg:pypi/pandas",
+      "bom-ref": "pypi/pandas@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "playwright",
+      "version": "unspecified",
+      "purl": "pkg:pypi/playwright",
+      "bom-ref": "pypi/playwright@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "pydantic",
+      "version": "unspecified",
+      "purl": "pkg:pypi/pydantic",
+      "bom-ref": "pypi/pydantic@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "pytest",
+      "version": "unspecified",
+      "purl": "pkg:pypi/pytest",
+      "bom-ref": "pypi/pytest@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "pyyaml",
+      "version": "unspecified",
+      "purl": "pkg:pypi/pyyaml",
+      "bom-ref": "pypi/pyyaml@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "sacrebleu",
+      "version": "unspecified",
+      "purl": "pkg:pypi/sacrebleu",
+      "bom-ref": "pypi/sacrebleu@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "seaborn",
+      "version": "unspecified",
+      "purl": "pkg:pypi/seaborn",
+      "bom-ref": "pypi/seaborn@unspecified"
+    }
+  ]
+}
